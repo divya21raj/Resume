@@ -1,3 +1,5 @@
+Is cloned from billryan/resume
+
 # Résumé
 
 Hit branch [zh_CN](https://github.com/billryan/resume/tree/zh_CN) if you want a Simplified Chinese résumé.
