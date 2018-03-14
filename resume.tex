@@ -1,0 +1,82 @@
+% !TEX program = xelatex
+
+\documentclass{resume}
+%\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+
+\usepackage{xcolor}
+\usepackage[colorlinks = true,
+            linkcolor = blue,
+            urlcolor  = blue,
+            citecolor = blue,
+            anchorcolor = blue]{hyperref}
+
+\newcommand{\MYhref}[3][blue]{\href{#2}{\color{#1}{#3}}}%
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{Divya Raj}
+
+\basicInfo{
+  \email{divya21raj@gmail.com} \textperiodcentered\ 
+  \phone{8802972757} \textperiodcentered\ 
+  \github[divya21raj]{https://github.com/divya21raj/SNU-Cabpool}}
+
+\section{\faGraduationCap\ Education}
+\datedsubsection{\textbf{Shiv Nadar University},Greater Noida, Uttar Pradesh}{2016 -- Present}
+\textit{B.Tech} in Computer Science and Engineering, expected May 2020
+\textsc{\\CGPA} 8.82
+\datedsubsection{\textbf{Rotary Public School}, Gurgaon, India}{--2016}
+\textit{XII(Senior Secondary)} in Science with 93\%
+\textit{\\X(Secondary)} with CGPA 10
+
+\section{\faTasks\ Projects}
+\datedsubsection{\textbf{Adventures of Dynamo - An RPG Game \MYhref{https://www.youtube.com/watch?v=i0g9QMIMdJc}{\faYoutube}}}{Feb 2013 - Mar 2013}
+An interactive open-world game made in RPG VX Ace
+\begin{itemize}
+  \item Basic AI design for pedestrian motion
+  \item Level building and story progression
+  \item Basic sprites
+\end{itemize}
+
+\datedsubsection{\textbf{SNU Cabpool} \MYhref{https://github.com/divya21raj/SNU-Cabpool}{\faGithub}}{Nov. 2017 -- Mar, 2018}
+An Android app providing a platform for students to find potential poolers,
+	dividing the large cab price from our somewhat remote university.
+\begin{itemize}
+  \item Based on Google's Firebase platform
+  \item A chat implementation
+  \item Handling overlapping internet transactions
+  \item Basic UI design.
+\end{itemize}
+
+\datedsubsection{\textbf{Professorate} \MYhref{https://github.com/divya21raj/Professorate}{\faGithub}}{Feb. 2018 -- Present}
+An Android applications where professors, courses can be rated and reviewed, assisting students to find university courses according to their 	interests more easily.
+\begin{itemize}
+  \item Basic Android UI design
+  \item Optimal database design for a review-style application using Firebase
+\end{itemize}
+
+\section{\faCogs\ Skills}
+\begin{itemize}[parsep=0.5ex]
+  \item Programming Languages: C == Java > C++ > Python
+  \item Development: Android, Firebase
+  \item Media: Video Editing(Sony Vegas), Sketching 
+\end{itemize}
+
+\section{\faTrophy\ Honors and Awards}
+%\datedline{\textit{\nth{1} Prize}, Award on xxx }{Jun. 2013}
+\datedline{Other awards}{2015}
+
+\section{\faInfo\ Miscellaneous}
+\begin{itemize}[parsep=0.5ex]
+  \item \linkedin[Divya Raj]{https://www.linkedin.com/in/divya-raj-0b865a125/}
+  \item \youtube[divya21raj]{https://www.youtube.com/user/divya21raj}
+  \item Languages: English - Fluent, Hindi - Native speaker, Punjabi, Bhojpuri
+\end{itemize}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}
